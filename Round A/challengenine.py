@@ -10,10 +10,6 @@ def sumDigitsInN(N):
 
 def isDivisibleByNine(n):
     return n % 9 == 0
-    if n < 10:
-        return n == 9
-    else:
-        return isDivisibleByNine(sumDigitsInN(n))
 
 
 def findNextMultipleOfNine(n):
